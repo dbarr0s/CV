@@ -31,8 +31,16 @@ Média final de 16,6 valores",
 #resume-entry(
   title: "Universidade do Minho",
   location: "Braga",
-  date: "setembro 2021 - Presente",
+  date: "outubro 2021 - junho 2025",
   description: "Licenciatura em Engenharia Informática
+",
+)
+
+#resume-entry(
+  title: "Universidade do Minho",
+  location: "Braga",
+  date: "outubro 2024 - presente",
+  description: "Mestrado em Engenharia Informática
 ",
 )
 
@@ -66,7 +74,7 @@ Média final de 16,6 valores",
   - Fornece aos seus clientes vários serviços de marcação e de manutenção automóvel.
   - Dois tipos de utilizadores (gerente, mecânico)
   - Arquitetura implementada com o uso de uma base de dados.
-  - Ferramentas - Java, SQL Server e Visual Paradigm.
+  - *Ferramentas :* Java, SQL Server e Visual Paradigm.
 ]
 
 #resume-entry(
@@ -80,7 +88,7 @@ Média final de 16,6 valores",
   - Esta plataforma tem como objetivo promover o comércio de skins do jogo Counter-Strike através de leilões.
   - Apresenta-se composta por 3 camadas: base de dados, lógica de negócio e interface de utilizador. 
   - Funcionalidades como login e registo de utilizadores, criação de leilões, licitação e etc....
-  - Ferramentas - Blazor, Microsoft SQL Server, HTML, CSS.
+  - *Ferramentas :* Blazor, Microsoft SQL Server, HTML, CSS.
 ]
 
 #resume-entry(
@@ -96,35 +104,48 @@ Média final de 16,6 valores",
   - Todos este conteúdo poderá ser consultado pelos alunos que ingressarem na UC. 
   - Três tipos de utilizadores (aluno, docente, admin)
   - Arquitetura dividida em interface, servidor de autenticação, API e base de dados
-  - Ferramentas - Express, MongoDB, JWT, Docker.
+  - *Ferramentas :* Express, MongoDB, JWT, Docker.
+]
+
+#pagebreak()
+
+#resume-entry(
+  title: "Desenvolvimento de Modelos de Machine Learning",
+  location: [#github-link("dbarr0s/Projeto-ADI")],
+  date: "junho 2024",
+  description: "Universidade do Minho - Aprendizagem e Decisão Inteligente",
+)
+
+#resume-item[
+  - Para este projeto foram desenvolvidos vários modelos de machine learning para solucionar problemas de regressão e classificação.
+  - Para isso foram feitas análises exploratórias, e também preparações e modelações de dois datasets distintos (um escolhido pelo grupo e outro pelos docentes). 
+  - *Ferramentas :* KNIME.
 ]
 
 #resume-entry(
-  title: "Compilador da Linguagem Forth para Código Máquina",
-  location: [#github-link("dbarr0s/Projeto-PL")],
-  date: "junho 2024",
+  title: "Evolução de um Mild Cognitive Impairment (MCI) para um Alzheimer",
+  location: [#github-link("dbarr0s/Projeto-DAA")],
+  date: "janeiro 2025",
+  description: "Universidade do Minho - Dados e Aprendizagem Automática",
+)
+
+#resume-item[
+  - Neste projeto foram desenvolvidos múltiplos modelos de classificação para prever a progressão de Mild Cognitive Impairment (MCI) para Alzheimer, com foco na deteção precoce da doença para maximizar intervenções terapêuticas.
+  - *Ferramentas :* Python, Jupyter Notebooks, Kaggle.
+]
+
+#resume-entry(
+  title: "Compilador da Linguagem Pascal para Código Máquina",
+  location: [#github-link("dbarr0s/Projeto-PL2025")],
+  date: "junho 2025",
   description: "Universidade do Minho - Processamento de Linguagens",
 )
 
 #resume-item[
-  - Neste projeto, o objetivo foi criar um compilador capaz de converter código Forth em código máquina para ser interpretado por uma máquina virtual.
-  - Utilizou-se geradores de compiladores baseados em gramáticas tradutoras, concretamente o Yacc, versão PLY do Python, completado pelo gerador de analisadores léxicos Lex, também versão PLY do Python.
-  - Ferramentas - Python.
-]
-
-#resume-entry(
-  title: "Engine 3D",
-  location: [#github-link("dbarr0s/Projeto-CG")],
-  date: "junho 2024",
-  description: "Universidade do Minho - Computação Gráfica",
-)
-
-#resume-item[
-  - Neste projeto, foi desenvolvido um motor 3D baseado em gráficos de mini-cenas 3D.
-  - Foi dividido em quatro fases e, em cada fase, foi fornecido um conjunto de ficheiros XML de configuração para fins de teste e avaliação.
-  - Foi implementado um sistema de iluminação, um sistema de câmara, um sistema de transformações geométricas e um sistema de texturas.
-  - Foi possível a criação de cenas 3D, como por exemplo, a criação de um cubo, um plano, uma esfera, um cone, um cilindro e até mesmo de um sistema solar, com rotação dos planetas realistas.
-  - Ferramentas - OpenGl, C++.
+  - Este projeto consiste no desenvolvimento de um compilador para a linguagem Pascal, através da criação de código para uma máquina virtual fornecida pelos docentes. 
+  - Foram efetuadas análises do tipo, léxico, sintático e semântico, com a ajuda das bibliotecas PLY.
+  - É capaz de suportar estruturas complexas como funções, ciclos, expressões aritméticas e condições. 
+  - *Ferramentas :* Python.
 ]
 
 = Aprendizagens
